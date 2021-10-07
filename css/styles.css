@@ -1,0 +1,399 @@
+ 
+ /*HEADER*/
+
+header{
+    background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
+    height: 812px;
+    width: 1449px;
+    left: -9px;
+    top: -109px;
+    border-radius: 0px;
+}
+
+header h2{
+    font-family: 'Poppins';
+    font-size:40px;
+    color: #FFFFFF;
+    padding-left: 110px;
+    padding-top: 110px;
+    width: 177px;
+    height: 120px;
+    line-height: 251px;
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: medium;
+    font-size: 45px;
+    line-height: 68px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align:Top;
+     color:  #FFFFFF;
+     padding-left: 110px;
+      padding-right: 775px;
+      padding-top: 155px;
+      
+}
+header h3{
+    Font-family: 'Poppins';
+    Font-style: Medium;
+    Font-size: 45px;
+    text-align: Right;
+     
+     color: #FFFFFF;
+     margin-left: 724px;
+     margin-right: 386px;
+     top: 383px;
+     width: 613px;
+     height: 68px;
+     left: 724px;
+}
+
+header p{
+    Font-family: 'Open Sans';
+     font-style: normal;
+     font-size: 20px;
+     line-height: 31,44px;
+     line-height: 157%;
+     text-align: right;
+    vertical-align: top;
+    color: #FFFFFF;
+    padding-right:101px ;
+    padding-left: 580px; 
+    
+    height: 200px;
+ 
+}
+ 
+
+/*GRILLAS*/
+
+.caja1{
+  width: 144px;
+  height: 2350px;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows:repeat (auto-fit,100px 100px );
+    grid-template-columns: 780px 664px;
+    
+    height: 783px;
+    width: 1449px;
+  }
+  
+  .grid-item1{
+      background-color: #E5E5E5;
+      width: 800px;
+      height: 783px;
+      line-height: 33,6px;
+      letter-spacing: 1.5%;
+      
+      left: 145px;
+      text-align: left;
+      padding-left: 190px;
+      padding-top: 150px;
+      padding-bottom: -10px;
+      padding-right: 200px;
+      
+      
+  }
+  .grid-item1 h1{
+      font-family: 'poppins';
+      font-size: 40px;
+      line-height: 60px;
+      line-height: 100%;
+      vertical-align: top;
+      color:  rgba(27, 79, 157, 1);
+      line-height: 80px;
+
+  }
+
+  .grid-item1 p{
+      font-family: 'open Sans';
+      font-style: normal;
+      font-size: 20px;
+      line-height: 34px;
+      line-height: 168%;
+      align-self: center;
+      letter-spacing: 1,5%;
+  }
+  
+  .grid-item2{
+      background-image:url(img/leon-vbxyFxlgpjM-unsplash\ 1.jpg) ;
+      margin-left: 0px;
+      padding-top: -145px;
+    background-size: contain;
+    background-size: cover;
+
+    
+    background-size: 100% 100%;
+      
+      width: 665px;
+      height: 785px;
+      
+    
+     
+  
+
+  }
+
+  .grid-item3{
+      background-image:url(img/photo-1586717791821-3f44a563fa4c\ \(1\).jpg);
+      background-repeat: no-repeat;
+      width: 800px;
+      height: 783px;
+      border-radius: 4px;
+      background-size: 100% 100%;
+  }
+  .grid-item4{
+    width: 670px;
+    height: 783px;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+    background-size: 100% 100%;
+    background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%),
+    linear-gradient(0deg, #1B4F9D, #1B4F9D);
+
+    padding-top: 165px;
+    padding-left: 119px;
+  }
+  .grid-item4 h1{
+    width: 374px;
+    height: 47px;
+    top: 1564px;
+    left: 931px;
+
+    font-family: 'poppins';
+    font-size: 40px;
+    line-height: 60px;
+    line-height: 100%;
+    text-align: right;
+    vertical-align: top;
+    letter-spacing: 1.5%;
+    color: #FFFFFF ;
+  }
+
+  .grid-item4 p{
+   width: 410px;
+   height: 313px;
+   top: 1658px;
+   left: 896px;
+
+   font-family: open Sans;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 34px;
+   line-height: 168%;
+   text-align:right;
+   vertical-align: top;
+  color: #FFFFFF ;
+  line-height: 33,6px;
+
+  }
+
+.grid-item5{
+    background-color: #E5E5E5;
+      width: 800px;
+      height: 783px;
+      line-height: 33,6px;
+      letter-spacing: 1.5%;
+      
+      left: 145px;
+      text-align: left;
+      padding-left: 190px;
+      padding-top: 150px;
+      padding-bottom: -10px;
+      padding-right: 200px;
+      
+}
+
+  .grid-item5 h1{
+    font-family: 'poppins';
+    font-size: 40px;
+    line-height: 60px;
+    line-height: 100%;
+    vertical-align: top;
+    color:  rgba(27, 79, 157, 1);
+    line-height: 80px;
+
+  }
+  .grid-item5 p{
+    width: 800px;
+    height: 783px;
+      top:244px;
+      left: 145px;
+
+      font-family: 'open Sans';
+      font-style: normal;
+      font-size: 20px;
+      line-height: 34px;
+      line-height: 168%;
+      align-self: center;
+      letter-spacing: 1,5%;
+     padding-right: 400px;
+  }
+  
+  .grid-item6{
+      background-image: url(img/ux-indonesia-qC2n6RQU4Vw-unsplash\ 1.jpg);
+      opacity: 75%;
+      width: 800x; 
+      height: 800px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }   
+
+
+    
+  
+  
+  /*CARRUSEL CON BOOTSTRAP*/
+  
+  .carruseles{
+    padding: 25px;
+  }
+  
+  .video{
+    background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
+    height: 600px;
+    width: 1449px;
+    
+    
+    padding-left: 250px;
+    padding-top: 60px;
+}
+
+.ultima-caja{
+  background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%),
+linear-gradient(0deg, #1B4F9D, #1B4F9D);
+
+    height: 600px;
+    width: 1449px; 
+    display: grid;
+    grid-template-rows:repeat (auto-fit,100px 100px );
+    grid-template-columns: 780px 664px;
+}
+ .caja2 h1{
+  width: 521px;
+  height: 217px;
+  top: 4281px;
+  left: 153px;
+  
+  font-family: 'poppins';
+  font-style: normal;
+  font-size: 48px;
+  line-height: 72px; 
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  color:#FFFFFF; 
+
+  padding-top: 75px;
+}
+.boton{
+ 
+
+  font-family:'poppins';
+ 
+  font-size: 24px;
+  
+  background-color: #FFFFFF;
+  color:  rgba(27, 79, 157, 1);
+  
+  display: block;
+  width: 278px;
+  height: 64px;
+  border-radius: 30px;
+padding-left: 50px;
+padding-top: 15px;
+}
+
+.imagencel{
+  width: 350px;
+  height:350px;
+  padding-top: 130px;
+
+}
+
+
+/*FOOTER*/
+.footers{
+     display: grid;
+     grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 500px 200px 100px 350px;
+  
+
+}
+
+
+  footer  li{
+    
+    list-style-type: none;
+
+      }
+
+ .redes a{
+    
+   
+   color:black;
+    
+  background-color: white;
+  text-decoration: none;
+  border-radius: 50%;
+    
+    }
+
+
+  redes li { 
+    
+    list-style-type: none;
+    
+  }
+
+  .secciones{
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 24px;
+    
+    text-align: center;
+  color:  rgba(27, 79, 157, 1);
+    }
+
+
+   .photo{
+    
+    padding-top: 63px;
+    padding-left: 30px;
+   } 
+   
+    .contacto{
+  
+
+      font-family: 'poppins';
+      font-style: normal;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color:  rgba(27, 79, 157, 1);
+      
+      
+      
+      }
+  .seguinos{
+    padding-left: 300px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color:  rgba(27, 79, 157, 1);
+  }
+   .iconos{
+    padding-left :250px ;
+    padding-top: 10px;
+    list-style-type: none;
+    text-align: center;
+
+  }
